@@ -23,7 +23,6 @@ class CustomUser(AbstractUser):
 class Meeting(models.Model):
     
     key = models.SlugField(unique=True, verbose_name='Ключ зустрічі')
-    members = models.ManyToManyField(CustomUser, verbose_name='Користувачі', related_name='meeting_members')
     start_time = models.DateTimeField(default=timezone.now, verbose_name='Дата та час початку')
     end_time = models.DateTimeField(default=timezone.now, verbose_name='Дата та час завершення')
     
