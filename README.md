@@ -1,12 +1,12 @@
 # room-booking
 fido
 
-Superuser:\n
-username - admin\n
-password - admin\n
+Superuser:
+username - admin
+password - admin
 
-Routes\n
-users/ - Усі користувачі\n
+Routes
+users/ - Усі користувачі
 users/create - Створити користувача
 users/<user_id> - Інформація про користувача (можливість видалити)
 rooms/ - Усі кімнати
